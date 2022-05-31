@@ -1,0 +1,186 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+  color: #fff;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  font-size: 36;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+header {
+  padding: 20px 0;
+  background-color: #000000;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  height: 20px;
+}
+footer {
+  padding: 20px 0;
+}
+section {
+  margin: 60px 0;
+}
+h2 {
+  font-size: 24px;
+  padding: 20px 0;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+
+  margin: 5px 0;
+}
+:target {
+  scroll-margin-top: 120px;
+}
+
+.header-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-top: -10px;
+}
+.container {
+  max-width: 1170px;
+
+  margin: 0 auto;
+}
+.box-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+}
+.header-navbar ul li {
+  margin: 0 10px;
+
+  list-style: none;
+
+  text-transform: uppercase;
+}
+.header-navbar ul li a:hover {
+  color: #4b0082;
+}
+.header-social-media ul li {
+  margin: 0 10px;
+  list-style: none;
+}
+.header-social-media ul li a:hover {
+  color: blue;
+}
+#image-about {
+  width: 40%;
+}
+#image-about img {
+  width: 100%;
+  margin-top: 40px;
+}
+#about {
+  width: 55%;
+}
+
+.gallery-wrap {
+  flex-wrap: wrap;
+}
+.gallery-card {
+  width: 30%;
+  height: 500px;
+  border: solid 2px DarkSlateBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.gallery-img {
+  background-size: 100%;
+  background-position: center;
+  background-color: #00bfff;
+  background-blend-mode: multiply;
+  transition: 0.6s;
+}
+.gallery-img:hover {
+  background-size: 120%;
+  background-color: white;
+}
+#card-1 {
+  background-image: url(../images/f3.jpg);
+}
+#card-2 {
+  background-image: url(../images/f1.jpg);
+}
+#card-3 {
+  background-image: url(../images/f2.jpg);
+}
+#card-4 {
+  background-image: url(../images/f4.jpg);
+
+}
+#card-5 {
+  background-image: url(../images/f6.jpg);
+
+}
+#card-6 {
+  background-image: url(../images/f5.jpg);
+
+}
+
+#dados-contato {
+ 
+  width: 45%;
+}
+#forms {
+
+  width: 45%;
+}
+
+.btn {
+	height: 3rem;
+	width: 250px;
+	background-color: #f7f7f7;
+	border-radius: 20px;
+	color: rgb(0, 0, 0);
+}
+.btn:hover {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+.forms-group {
+  padding: 5px 0;
+}
+.gradient {
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: olive;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+}
